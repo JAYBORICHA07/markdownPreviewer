@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.box{
+  border: 1px solid grey;
+  background-color: aquamarine;
+  height: 400px;
+  overflow: scroll;
+}
+
+#preview{
+  background-color: darkgrey;
+}
+
+#b1 #b2{
+  display: inline-block;
+}
+
+#b2{
+  width: 750px;
+  text-size-adjust: small;
+}
+
