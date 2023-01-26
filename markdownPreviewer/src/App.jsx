@@ -38,12 +38,7 @@ Start an indented code block following a paragraph with a blank line and at leas
             © 2009—2017 JetBrains · All rights reserved
         </div>
 This line of text is not indented. It ends the code block and starts a new paragraph.
-
-
-```
-code
-```
-
+\`code\`
 `
   );
 
