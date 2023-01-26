@@ -17,7 +17,8 @@ const renderer = new marked.Renderer();
 
 
 function App() {
-  const [text,setText] = React.useState(`
+  const [text,setText] = React.useState(
+`
 # h1
 ## h2
 **bold text**
@@ -38,7 +39,13 @@ Start an indented code block following a paragraph with a blank line and at leas
         </div>
 This line of text is not indented. It ends the code block and starts a new paragraph.
 
-  `);
+
+```
+code
+```
+
+`
+  );
 
   return (
     <div className="" id="b1">
